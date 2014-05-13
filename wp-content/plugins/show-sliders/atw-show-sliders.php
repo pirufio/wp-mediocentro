@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 define ( 'ATW_SLIDER_PI_VERSION','1.0.8');
 define ( 'ATW_SLIDER_PI_PRO', false);            // change this and the Plugin Name above when building Pro version
-define ( 'ATW_SLIDER_PI_MINIFY','.min');		// '' for dev, '.min' for production
+define ( 'ATW_SLIDER_PI_MINIFY','');		// '' for dev, '.min' for production
 
 if (function_exists('atw_slider_installed')) {
     wp_die('Both ATW Show Sliders and ATW Show Sliders Pro installed. You can only activate one version or the other!','You can have only one activated version of ATW Show Sliders!');
