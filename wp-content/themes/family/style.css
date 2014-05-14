@@ -969,7 +969,7 @@ Sidebars
 .sidebar a,
 .entry-content a,
 .site-footer a {
-	border-bottom: 1px solid #E3E3E3;
+	/*border-bottom: 1px solid #E3E3E3;*/
 }
 
 .widget-title {
