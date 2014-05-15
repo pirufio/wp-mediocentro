@@ -399,8 +399,8 @@ function atw_slider_do_footer() {
             echo 'animation:"slide",';
 
         if ( $slider_type == 'carousel') {
-            atw_slider_echo_opt_val( 'minItems', $name, '3' );
-            atw_slider_echo_opt_val( 'maxItems', $name, '3' );
+            atw_slider_echo_opt_val( 'minItems', $name, '2' );
+            atw_slider_echo_opt_val( 'maxItems', $name, '2' );
             atw_slider_echo_opt_val( 'itemWidth', $name, '400' );
             atw_slider_echo_opt_val( 'move', $name, '0');
         }

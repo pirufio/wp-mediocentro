@@ -79,7 +79,7 @@ body .atwkslider.carousel .slides .atwk-active-slide img {
 .atwkslider {                   /* basic options */
     background: transparent;
     clear: both;
-    margin: 0 0 50px 0;           /* margin at bottom of sliders */
+    margin: 0 0 20px 0;           /* margin at bottom of sliders */
     overflow: visible !important;
     padding:0 !important;
     position: relative;

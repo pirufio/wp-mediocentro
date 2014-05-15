@@ -17,13 +17,14 @@ get_header(); ?>
         
        
         <?php
-        /*
-        $query_images_args = array(
-            'post_type' => 'attachment', 'post_mime_type' =>'image', 'post_status' => 'inherit', 'posts_per_page' => -1, 'post_title' => 'portada 02',
+        
+        $str = "portada";
+         
+        $query_args = array(
+            'post_title_like' => $str, 'post_type' => 'attachment', 'post_mime_type' =>'image', 'post_status' => 'inherit', 'posts_per_page' => -1,
         );
-
-        $query_images = new WP_Query( $query_images_args );
-        print_r($query_images);
+        
+        $query_images = new WP_Query($query_args);
         
         $images = array();
 
@@ -35,17 +36,31 @@ get_header(); ?>
                 echo '<li><img src="' . $img . '" /></li>';
             }
         }
-        */
         ?>
-        
+        <!--
         <li>
             <img src="http://pureweb.azurewebsites.net/wp-content/uploads/2014/05/portada-01-1024x576.jpg"  height="630px" width="1120px" />
         </li>
         <li>
             <img src="http://pureweb.azurewebsites.net/wp-content/uploads/2014/05/portada-02-1024x576.jpg"  height="630px" width="1120px" />
         </li>
+        -->
     </ul>
 </div>
+
+<div class="footer-social-container">
+    <div class="footer-social-icons">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+    </div>
+</div>
+
 
 <!--End Content-->
 
@@ -59,7 +74,7 @@ get_header(); ?>
     jQuery(document).ready(function(){
         
 		jQuery("#portada-slider").CarouSlide({
-			animTime:1500,
+			animTime:1000,
                         animInfinity:true,
 			showSlideNav:false,
 			autoAnim:true,
