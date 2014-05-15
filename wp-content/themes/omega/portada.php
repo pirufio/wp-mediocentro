@@ -9,7 +9,12 @@
  */
 
 get_header(); ?>
-
+<style type="text/css">
+    .footer-social-container{
+        width: 100%;
+        text-align: right;
+    }
+</style>
 <!--Content-->
 
 <div id="portada-slider" class="CarouSlide">
@@ -50,14 +55,18 @@ get_header(); ?>
 
 <div class="footer-social-container">
     <div class="footer-social-icons">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-        </span>
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-        </span>
+        <a href="http://www.facebook.com" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+        <a href="http://www.twitter.com" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
     </div>
 </div>
 
