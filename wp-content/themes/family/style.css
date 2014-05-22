@@ -270,7 +270,7 @@ h5,
 h6 {
 	color: #474747;
 	font-family: 'sansation';
-	font-weight: bold;
+	font-weight: 300;
 	line-height: 1.4;
 	margin: 0;
 	margin-bottom: 14px;
@@ -695,7 +695,6 @@ Site Navigation
 	padding: 10px 20px;
 	position: relative;
 	text-transform: uppercase;
-        background-color: rgb(245,245,245);
 }
 .omega-nav-menu li a:hover {
 	color: #000;
@@ -1211,4 +1210,19 @@ Plugins Style
 --------------------------------------------- */
 input#subscribe-field {
 	padding: 16px !important;
+}
+
+
+.comments-closed.pings-open {
+    display: none;
+}
+
+
+#post-272 {
+    border-bottom: none;
+}
+
+.footer-social-container{
+    width: 100%;
+    text-align: right;
 }

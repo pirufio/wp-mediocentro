@@ -9,12 +9,6 @@
  */
 
 get_header(); ?>
-<style type="text/css">
-    .footer-social-container{
-        width: 100%;
-        text-align: right;
-    }
-</style>
 <!--Content-->
 
 <div id="portada-slider" class="CarouSlide">
