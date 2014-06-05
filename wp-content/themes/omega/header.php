@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html <?php language_attributes( 'html' ); ?>>
 <head>
-    <link href="<?php echo get_template_directory_uri() . '/fonts.css' ?>" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo get_template_directory_uri() . '/font-awesome/css/font-awesome.min.css' ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo get_home_url() . '/wp-content/themes/omega/fonts.css' ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo get_home_url() . '/wp-content/themes/omega/font-awesome/css/font-awesome.min.css' ?>" rel="stylesheet" type="text/css"/>
     <?php wp_head(); // Hook required for scripts, styles, and other <head> items. ?>
 </head>
 

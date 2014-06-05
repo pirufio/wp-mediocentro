@@ -1,4 +1,8 @@
 <?php
+
+update_option('siteurl','http://mediocentro.com.ar/');
+update_option('home','http://mediocentro.com.ar/');
+
 /* Load Omega theme framework. */
 require ( trailingslashit( get_template_directory() ) . 'lib/framework.php' );
 new Omega();

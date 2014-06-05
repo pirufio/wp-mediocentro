@@ -5,3 +5,14 @@ contraseña bold282moss713
 DATATEC(DONWEB)
 Usuario: verde_rodrigo@yahoo.com
 Contraseña: bold282
+
+FTP
+bamako.ferozo.com
+Usuario: bkmedio
+Contraseña: TOA5445qww
+directorio: /public_html
+
+MYSQL
+base de datos: bkmedio_mediocentrodb
+usuario: bkmedio_user
+password: Pure123456
