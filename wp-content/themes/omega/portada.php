@@ -47,22 +47,7 @@ get_header(); ?>
     </ul>
 </div>
 
-<div class="footer-social-container">
-    <div class="footer-social-icons">
-        <a href="http://www.facebook.com" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
-        </a>
-        <a href="http://www.twitter.com" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-        </a>
-    </div>
-</div>
+<div class="footer-social-container"><div class="footer-social-icons"><a href="http://www.facebook.com" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a><a href="http://www.twitter.com" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></div></div>
 
 
 <!--End Content-->
