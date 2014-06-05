@@ -88,3 +88,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('WP_HOME','http://mediocentro.com.ar/');
+define('WP_SITEURL','http://mediocentro.com.ar/');
