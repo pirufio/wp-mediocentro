@@ -404,7 +404,7 @@ Structure and Layout
 	float: left;
 	width: 67%;
 	padding-right: 40px;
-	
+	min-height: 609px;
 }
 
 .layout-2c-r .content {
@@ -1225,4 +1225,5 @@ input#subscribe-field {
 .footer-social-container{
     width: 100%;
     text-align: right;
+    margin-left: -44px;
 }

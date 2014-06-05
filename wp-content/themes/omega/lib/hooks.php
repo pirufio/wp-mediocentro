@@ -158,8 +158,8 @@ function omega_branding() {
 function omega_default_footer_insert( $settings ) {
 
 	/* If there is a child theme active, use [child-link] shortcode to the $footer_insert. */
-	return '<p class="copyright">' . __( 'Copyright &#169; [the-year] [site-link].', 'omega' ) . '</p>' . "\n\n" . '<p class="credit">' . __( 'Theme by [author-uri].', 'omega' ) . '</p>';	
-
+	//return '<p class="copyright">' . __( 'Copyright &#169; [the-year] [site-link].', 'omega' ) . '</p>' . "\n\n" . '<p class="credit">' . __( 'Theme by [author-uri].', 'omega' ) . '</p>';	
+        return '<p class="copyright">' . __( 'Copyright &#169; [the-year] [site-link].', 'omega' ) . '</p>' . "\n\n" . '<p class="credit"><div class="footer-social-container"><div class="footer-social-icons"><a href="http://www.facebook.com" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a><a href="http://www.youtube.com" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></span></a></div></div></p>' ;
 }
 
 /**

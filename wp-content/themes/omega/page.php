@@ -24,7 +24,9 @@ get_header(); ?>
 
 	</main><!-- .content -->
 
-        <div class="footer-social-container">
+        <?php  get_footer(); ?>
+<!--        
+        <div class="footer-social-container in-page">
             <div class="footer-social-icons">
                 <a href="http://www.facebook.com" target="_blank">
                     <span class="fa-stack fa-lg">
@@ -40,6 +42,4 @@ get_header(); ?>
                 </a>
             </div>
         </div>
-
-        
-<?php  get_footer(); ?>
+-->
